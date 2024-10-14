@@ -53,7 +53,7 @@
         Delete {
             bindings = <&kp DEL>;
             key-positions = <1 2>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         one {
@@ -65,67 +65,67 @@
         two {
             bindings = <&kp NUMBER_2>;
             key-positions = <15 14>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         three {
             bindings = <&kp NUMBER_3>;
             key-positions = <27 26>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         four {
             bindings = <&kp NUMBER_4>;
             key-positions = <26 25>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         five {
             bindings = <&kp N5>;
             key-positions = <27 28>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         six {
             bindings = <&kp NUMBER_6>;
             key-positions = <15 16>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         seven {
             bindings = <&kp N7>;
             key-positions = <15 26>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         eight {
             bindings = <&kp N8>;
             key-positions = <16 27>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         nine {
             bindings = <&kp N9>;
             key-positions = <25 14>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         zero {
             bindings = <&kp N0>;
             key-positions = <14 27>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         tiret {
             bindings = <&kp MINUS>;
             key-positions = <15 28>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <13 26>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         gaming {
