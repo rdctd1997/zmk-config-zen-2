@@ -59,7 +59,7 @@
         one {
             bindings = <&kp NUMBER_1>;
             key-positions = <13 14>;
-            layers = <0>;
+            layers = <0 2 3 4 5>;
         };
 
         two {
