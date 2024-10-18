@@ -128,9 +128,9 @@
             layers = <0 2 3 4 5>;
         };
 
-        gaming {
-            bindings = <&tog 0>;
-            key-positions = <35 23 11>;
+        zoomcombo {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <25 38>;
         };
     };
 
