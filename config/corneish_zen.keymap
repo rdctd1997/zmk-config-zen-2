@@ -127,11 +127,6 @@
             key-positions = <13 26>;
             layers = <0 2 3 4 5>;
         };
-
-        zoomcombo {
-            bindings = <&kp LC(SPACE)>;
-            key-positions = <25 38>;
-        };
     };
 
     keymap {
