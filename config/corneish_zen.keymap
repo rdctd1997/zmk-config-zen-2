@@ -166,19 +166,19 @@
         function_nav {
             display-name = "FUNCTION";
             bindings = <
-&trans          &kp F7  &kp F8  &kp F9  &kp F12  &none     &none   &none   &kp HOME        &kp UP_ARROW    &kp PAGE_UP    &kp PRINTSCREEN
-&kp LEFT_SHIFT  &kp F4  &kp F5  &kp F6  &kp F11  &none     &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp LEFT_SHIFT
-&kp LCTRL       &kp F1  &kp F2  &kp F3  &kp F10  &none     &none   &none   &kp END         &kp INSERT      &kp PAGE_DOWN  &kp LCTRL
-                                &trans  &trans   &trans    &trans  &trans  &trans
+&trans          &kp F7  &kp F8  &kp F9  &kp F12  &kp LC(LS(NUMBER_3))    &none   &none   &kp HOME        &kp UP_ARROW    &kp PAGE_UP    &kp PRINTSCREEN
+&kp LEFT_SHIFT  &kp F4  &kp F5  &kp F6  &kp F11  &out OUT_TOG            &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp LEFT_SHIFT
+&kp LCTRL       &kp F1  &kp F2  &kp F3  &kp F10  &none                   &none   &none   &kp END         &kp INSERT      &kp PAGE_DOWN  &kp LCTRL
+                                &trans  &trans   &trans                  &trans  &trans  &trans
             >;
         };
 
         symbol {
             bindings = <
-&none  &none  &none  &none   &none   &bt BT_CLR      &bt BT_SEL 2     &out OUT_TOG  &out OUT_USB  &none  &none     &rgb_ug RGB_SAD
-&none  &none  &none  &none   &none   &bt BT_SEL 0    &rgb_ug RGB_TOG  &none         &none         &none  &kp SEMI  &rgb_ug RGB_BRD
-&none  &none  &none  &none   &none   &bt BT_SEL 1    &rgb_ug RGB_HUI  &none         &none         &none  &none     &none
-                     &trans  &trans  &trans          &trans           &trans        &trans
+&none  &none  &none  &none   &none   &bt BT_CLR      &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
+&none  &none  &none  &none   &none   &bt BT_SEL 0    &none            &none            &none            &none            &kp SEMI         &none
+&none  &none  &none  &none   &none   &bt BT_SEL 1    &none            &none            &none            &none            &none            &none
+                     &trans  &trans  &trans          &trans           &trans           &trans
             >;
 
             label = "SYMBOL";
